@@ -1,0 +1,177 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css";
+body
+{
+    background-color: #8F9779;
+    margin: 0px;
+}
+
+.main .sidepanel
+{
+    background-image: linear-gradient(to top right,#1b310f,#7ebc59);
+    width: 20vw;
+    height: 791px;
+    position: fixed;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 0px rgb(255,255,255),
+             0.5em 0.5em 1em rgba(0,0,0,0.5);
+}
+
+.main nav
+{
+    position: fixed;
+    background-image: linear-gradient(to top right,#7ebc59,#437a27);
+    height: 6vw;
+    width: 80vw;
+    margin-left: 20vw;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 0px rgb(255,255,255),
+             0.5em 0.5em 1em rgba(0,0,0,0.5);
+}
+/* book icon */
+.main .nav .logo i
+{
+    position: absolute;
+    font-size: 3.5vw;
+    margin-left: 2vw;
+    margin-top: 1.4vw;
+    color: #202020;
+    -webkit-text-stroke: 0.5px #979797b9;
+}
+
+/* library heading */
+.main .nav .heading
+{
+    position: absolute;
+    margin-left: 7vw;
+    margin-top: 0.5vw;
+}
+.main .nav .heading a
+{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 3.3vw;
+    text-decoration: none;
+    color: #202020;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 20px;
+    -webkit-text-stroke: 0.5px #979797b9;
+}
+.main .nav .heading a:hover
+{
+    border:1px solid #202020;
+}
+
+/* Search bar */
+.main .nav .searchbar
+{
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 2vw;
+}
+.main .nav .searchbar input
+{
+    width: 20vw;
+    height: 2vw;
+    font-family: 'Jura', sans-serif;
+    background: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 1.2vw;
+    padding-left: 1vw;
+    color: #202020;
+    border: 1px solid #202020;
+}
+.main .nav .searchbar input::placeholder
+{
+    color: #202020;
+}
+.main .nav .searchbar input:focus
+{
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+/* Notification icon */
+.main .nav .notification
+{
+    position: absolute;
+    margin-left: 76vw;
+    margin-top: 2vw;
+}
+.main .nav .notification i
+{
+    color: #202020;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    border-radius: 25px;
+}
+.main .nav .notification i:hover
+{
+    border:1px solid #202020;
+}
+
+/* sidepanel */
+
+.sidepanel a
+{
+    position: absolute;
+    padding-bottom: 4px;
+    width: 19.5vw;
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    font-size: 1.6vw;
+    color: #202020;
+}
+.sidepanel a:hover
+{
+    border-left: 0.5vw solid #202020;
+    outline: 1px solid #202020;
+    transition-duration: 0.3s;
+}
+
+.sidepanel i
+{
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.sidepanel .home a
+{
+    margin-top: 14vw;
+}
+.sidepanel .books a
+{
+    margin-top: 17.5vw;
+}
+.sidepanel .students a
+{
+    margin-top: 21vw;
+}
+.sidepanel .teachers a
+{
+    margin-top: 24.5vw;
+}
+.sidepanel .issued-books a
+{
+    margin-top: 28vw;
+}
+.sidepanel .return-books a
+{
+    margin-top: 31.5vw;
+}
+.sidepanel .addbook a
+{
+    margin-top: 35vw;
+}
+.sidepanel .history a
+{
+    margin-top: 38.5vw;
+}
+.sidepanel .logout a
+{
+    margin-top: 42vw;
+}
+

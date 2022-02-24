@@ -1,0 +1,140 @@
+@import "layout.css";
+
+.container
+{
+    position: absolute;
+    margin-left: 29vw;
+    margin-top: 13vw;
+}
+
+.container input
+{
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    background-color: #3a5235;
+    font-weight: bold;
+    width: 18vw;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+.container input:hover
+{
+    background-color: #3b7031;
+   color: #FFFFFF;
+}
+.container i
+{
+    color: #EBEBEB;
+    margin: 4.5vw 13vw;
+    font-size: 4vw;
+}
+
+.container .a1
+{
+    background-image: linear-gradient(to top right,#000,#20202063);
+    position: absolute;
+    width: 18vw;
+    height: 12vw;
+    border-radius: 10px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 0px rgb(255,255,255),
+             0.5em 0.5em 1em rgba(0,0,0,0.5);
+}
+.container .a1 input
+{
+    position: absolute;
+    border: none;
+    outline: none;
+    margin-top: 9.5vw;
+}
+
+.container .a2
+{
+    background-image: linear-gradient(to top right,#000,#20202063);
+    position: absolute;
+    margin-left: 22vw;
+    width: 18vw;
+    height: 12vw;
+    border-radius: 10px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 0px rgb(255,255,255),
+             0.5em 0.5em 1em rgba(0,0,0,0.5);
+}
+.container .a2 input
+{
+    position: absolute;
+    border: none;
+    outline: none;
+    margin-top: 9.5vw;
+}
+
+.container .a3
+{
+    background-image: linear-gradient(to top right,#000,#20202063);
+    position: absolute;
+    margin-left: 44vw;
+    width: 18vw;
+    height: 12vw;
+    border-radius: 10px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 0px rgb(255,255,255),
+             0.5em 0.5em 1em rgba(0,0,0,0.5);
+}
+.container .a3 input
+{
+    position: absolute;
+    border: none;
+    outline: none;
+    margin-top: 9.5vw;
+}
+
+.container .a4
+{
+    background-image: linear-gradient(to top right,#000,#20202063);
+    position: absolute;
+    margin-top: 16vw;
+    width: 18vw;
+    height: 12vw;
+    border-radius: 10px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 0px rgb(255,255,255),
+             0.5em 0.5em 1em rgba(0,0,0,0.5);
+}
+.container .a4 input
+{
+    position: absolute;
+    border: none;
+    outline: none;
+    margin-top: 9.5vw;
+}
+
+.container .a5
+{
+    background-image: linear-gradient(to top right,#000,#20202063);
+    position: absolute;
+    margin-left: 22vw;
+    margin-top: 16vw;
+    width: 18vw;
+    height: 12vw;
+    border-radius: 10px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 0px rgb(255,255,255),
+             0.5em 0.5em 1em rgba(0,0,0,0.5);
+}
+.container .a5 input
+{
+    border: none;
+    position: absolute;
+    outline: none;
+    margin-top: 9.5vw;
+}
